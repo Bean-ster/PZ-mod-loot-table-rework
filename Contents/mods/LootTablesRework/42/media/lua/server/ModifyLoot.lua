@@ -1,3 +1,7 @@
+require 'Items/ProceduralDistributions'
+require 'Items/SuburbsDistributions'
+require 'Items/Distributions'
+
 local function modifyGunLootTables()
 
     local High = 9
@@ -65,6 +69,19 @@ end
         InsertLoot(ProceduralDistributions.list.GunStoreRifles.items, "Base.Mace", ExtremelyRare)
         InsertLoot(ProceduralDistributions.list.GunStoreRifles.items, "Base.SpearLong", ExtremelyRare)
         InsertLoot(ProceduralDistributions.list.GunStoreRifles.items, "Base.Katana", 0.5)
+
+        --Police station loot tables
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.BaseballBat", High)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.LargeKnife", High)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.ShortBat", High)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.Nightstick", High)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.BaseballBat_Metal", Medium)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.IceAxe", Low)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.Machete", Low)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.MeatCleaver_Scrap", Low)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.ShortBat_RakeHead", VeryLow)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.CrudeSword", VeryLow)
+        InsertLoot(ProceduralDistributions.list.PoliceStorageGuns.items, "Base.ShortSword", ExtremelyRare)
     end
 end
 

@@ -1,4 +1,5 @@
-name=Melee Loot Table Rework
+name=Melee Loot Pools Rework
 poster=poster.png
 id=MLT
-description=Project Zomboid's Example Mod
+author=Beans
+description=Adds various melee weapons to gun loot pools
